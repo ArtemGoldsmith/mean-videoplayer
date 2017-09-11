@@ -1,0 +1,5 @@
+<ul class="nav nav-pills nav-stacked">
+  <li *ngFor="let video of videos">
+    <a (click)="onSelect(video)">{{ video.title }}</a>
+  </li>
+</ul>
